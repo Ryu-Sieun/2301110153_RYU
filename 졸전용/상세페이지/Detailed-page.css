@@ -1,0 +1,227 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+body{
+    background-color: #E8E8E8;
+}
+.ALL{
+    width: 1860px;
+    padding: 30px;
+    margin: auto;
+    background-color: #E8E8E8;
+}
+
+.Top .Logo{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.Top .left{
+    float: left;
+}
+.Top .right{
+    float: right;
+    margin-top: -62px;
+}
+.Top .left p,
+.Top .right p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.Top img{
+    margin: auto;
+    display: block;
+}
+
+
+.Main{
+    height: 1200px;
+}
+.Main .text{
+    margin-left: 700px;
+}
+.Main .text h1{
+    font-size: 250px;
+    font-weight: 900;
+    line-height: 210px;
+    margin-top: 200px;
+    position:absolute;
+    z-index: 1;
+    text-shadow: 5px 5px 50px rgba(255, 255, 255, 0.5);
+}
+.Main img{
+    display: block;
+    margin-top: -200px;
+    position:absolute;
+    margin-top: 400px;
+    margin-left: -30px;
+}
+.Main .content{
+    margin-top: 1100px;
+    margin-left: 50%;
+    float: left;
+    width: 850px;
+}
+.Main .content img{
+    display: block;
+    margin-top: -15px;
+}
+.Main .content h3{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-left: -20px;
+}
+.Main .content p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -20px;
+}
+
+
+.Popular-product{
+    margin: 150px 90px;
+}
+.Popular-product h2{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.Popular-product .full-box{
+    width: 1695px;
+    height: 1623px;
+    outline: 1.5px solid #000;
+}
+.Popular-product .full-box h3{
+    font-size: 12px;
+    font-weight: 700;
+}
+.Popular-product .full-box .center-line{
+    font-size: 11px;
+    text-decoration: line-through;
+}
+.Popular-product .full-box p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.Popular-product .full-box .BEDDING-box{
+    float: left;
+    background-image: url(image/BEDDING.png);
+    background-color: white;
+    width: 541px; height: 1050px;
+    padding-top: 24px;
+    padding-left: 24px;
+    outline: 0.5px solid #000;
+}
+.Popular-product .full-box .RUG-box{
+    float: left;
+    background-image: url(image/RUG.png);
+    background-color: white;
+    width: 541px; height: 1050px;
+    padding-top: 24px;
+    padding-left: 24px;
+    outline: 0.5px solid #000;
+}
+.Popular-product .full-box .link-box{
+    float: left;
+    width: 565px; height: 525px;
+    outline: 0.5px solid #000;
+}
+.Popular-product .full-box .link-box img{
+    float: right;
+    display: block;
+    margin-top: 5px;
+}
+.Popular-product .full-box .link-box h3{
+    float: left;
+    font-size: 40px;
+    font-weight: 900;
+}
+.Popular-product .full-box .link-box .L-box1{
+    width: 528px;
+    height: 42px;
+    margin-top: 135px;
+    outline: 0.5px solid #000;
+    padding: 19px;
+}
+.Popular-product .full-box .link-box .L-box2{
+    width: 528px;
+    height: 42px;
+    outline: 0.5px solid #000;
+    padding: 19px;
+}
+.Popular-product .full-box .link-box .L-box3{
+    width: 528px;
+    height: 42px;
+    outline: 0.5px solid #000;
+    padding: 19px;
+}
+.Popular-product .full-box .MIRROR-box{
+    float: left;
+    background-image: url(image/MIRROR.png);
+    width: 541px; height: 525px;
+    padding-top: 24px;
+    padding-left: 24px;
+    outline: 0.5px solid #000;
+}
+.Popular-product .full-box .BLANKET-box{
+    float: left;
+    background-image: url(image/BLANKET.png);
+    width: 541px; height: 525px;
+    padding-top: 24px;
+    padding-left: 24px;
+    outline: 0.5px solid #000;
+}
+.Popular-product .full-box .image-box{
+    float: left;
+    width: 565px; height: 549px;
+    outline: 0.5px solid #000;
+}
+.Popular-product .full-box .MAT-box{
+    float: left;
+    background-image: url(image/MAT.png);
+    width: 541px; height: 525px;
+    padding-top: 24px;
+    padding-left: 24px;
+    outline: 0.5px solid #000;
+}
+
+
+.img{
+    margin-left: -30px;
+}
+
+
+.Bottom{
+    padding: 85px 111px;
+    background-color: #353535;
+    width: 1699px; height: 101px;
+    margin-top: -5px;
+    margin-left: -30px;
+}
+.Bottom .zone-1,
+.Bottom .zone-2,
+.Bottom .zone-3,
+.Bottom .zone-4{
+    width: 424.75px;
+    float: left;
+}
+.Bottom p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
